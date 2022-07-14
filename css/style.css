@@ -255,7 +255,9 @@ img {
 
 /* ===== ABOUT =====*/
 .about__container {
-  row-gap: 2rem;
+  display: flex;
+  justify-content: center;
+  width:50%;
   text-align: center;
 }
 
@@ -263,13 +265,8 @@ img {
   margin-bottom: var(--mb-2);
 }
 
-.about__img {
-  justify-self: center;
-}
-
-.about__img img {
-  width: 200px;
-  border-radius: .5rem;
+.about__container div{
+  text-align: center;
 }
 
 /* ===== SKILLS =====*/
@@ -411,6 +408,10 @@ img {
   .home__img {
     width: 200px;
   }
+
+  .about__container {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 576px) {
@@ -523,4 +524,5 @@ img {
   .home__img {
     width: 450px;
   }
+  
 }
