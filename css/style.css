@@ -374,6 +374,14 @@ img {
   transform: scale(1.1);
 }
 
+/* github */
+
+#github img{
+  width: 80%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
 /* ===== CONTACT =====*/
 .contact__input ,textarea{
   width: 100%;
