@@ -346,8 +346,8 @@ img {
 }
 
 .skills__img {
+  margin-top: 80px;
   border-radius: .5rem;
-  
 }
 
 /* ===== WORK =====*/
@@ -428,6 +428,10 @@ img {
 
   .project_link a{
     padding: 0 10px;
+  }
+
+  .skills__img {
+    margin-top: 0px; 
   }
 }
 
