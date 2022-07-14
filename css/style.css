@@ -376,11 +376,13 @@ img {
 
 /* github */
 
-#github img{
+#github .github_img{
   width: 80%;
   margin-left:auto;
   margin-right:auto;
 }
+
+
 
 /* ===== CONTACT =====*/
 .contact__input ,textarea{
