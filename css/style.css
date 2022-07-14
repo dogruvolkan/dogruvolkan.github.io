@@ -324,6 +324,10 @@ img {
   width: 75%;
 }
 
+.skills__sass{
+  width: 45%;
+}
+
 .skills__js {
   width: 55%;
 }
@@ -338,6 +342,7 @@ img {
 
 .skills__img {
   border-radius: .5rem;
+  
 }
 
 /* ===== WORK =====*/
@@ -525,7 +530,7 @@ img {
   }
   
   .about__container {
-    width: 50%;
+    width: 45%;
     margin-left: auto;
     margin-right: auto;
   }

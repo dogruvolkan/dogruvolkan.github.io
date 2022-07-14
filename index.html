@@ -57,7 +57,10 @@
             Frontend Developer
           </h1>
 
-          <a href="mailto:volkandogru11@gmail.com" class="button">Contact</a>
+          <a href="#contact" class="button">Contact</a>
+          <a href="img/volkandogru_cv.pdf" class="button"
+            >My CV <i class="bx bxs-download bx-fade-down"></i
+          ></a>
         </div>
 
         <div class="home__social">
@@ -114,8 +117,11 @@
             <p class="about__text">
               I am a 3rd year student of information systems engineering at
               Sakarya University. I have an interest in frontend, so I develop
-              projects with javascript and react. You can reach me from the
-              contact area.
+              projects with javascript and react.My effective communication with
+              my teammates, my problem-solving skills and leadership qualities
+              come to the fore. I love to study and research new expressions I
+              hear. My biggest goal is to benefit people and make their lives
+              easier. You can reach me from the contact area.
             </p>
           </div>
         </div>
@@ -147,6 +153,16 @@
               <div class="skills__bar skills__css"></div>
               <div>
                 <span class="skills__percentage">65%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-sass skills__icon"></i>
+                <span class="skills__name">SASS</span>
+              </div>
+              <div class="skills__bar skills__sass"></div>
+              <div>
+                <span class="skills__percentage">45%</span>
               </div>
             </div>
             <div class="skills__data">
@@ -230,11 +246,25 @@
         <h2 class="section-title">Contact</h2>
 
         <div class="contact__container bd-grid">
-          <form action="" class="contact__form">
-            <input type="text" placeholder="Name" class="contact__input" />
-            <input type="mail" placeholder="Email" class="contact__input" />
+          <form
+            action="https://formspree.io/f/xrgjwwbv"
+            method="POST"
+            class="contact__form"
+          >
+            <input
+              type="text"
+              name="name"
+              placeholder="Name"
+              class="contact__input"
+            />
+            <input
+              type="email"
+              name="mail"
+              placeholder="Email"
+              class="contact__input"
+            />
             <textarea
-              name=""
+              name="message"
               id=""
               cols="0"
               rows="10"
@@ -242,7 +272,7 @@
               placeholder="Message"
             ></textarea>
             <input
-              type="button"
+              type="submit"
               value="Gönder"
               class="contact__button button"
             />
