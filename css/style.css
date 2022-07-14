@@ -361,6 +361,11 @@ img {
   overflow: hidden;
 }
 
+.project_link{
+  padding: 10px 0;
+  text-align: center;
+}
+
 .work__img img {
   transition: 1s;
 }
@@ -419,6 +424,10 @@ img {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .project_link a{
+    padding: 0 10px;
   }
 }
 
@@ -539,4 +548,5 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
+
 }
