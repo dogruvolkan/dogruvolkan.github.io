@@ -225,7 +225,7 @@ img {
 
 .home__img {
   position: absolute;
-  right: 0;
+  right: 0px;
   bottom: 0;
   width: 260px;
 }
@@ -254,12 +254,7 @@ img {
 }
 
 /* ===== ABOUT =====*/
-.about__container {
-  display: flex;
-  justify-content: center;
-  width:50%;
-  text-align: center;
-}
+
 
 .about__subtitle {
   margin-bottom: var(--mb-2);
@@ -267,6 +262,7 @@ img {
 
 .about__container div{
   text-align: center;
+  
 }
 
 /* ===== SKILLS =====*/
@@ -409,9 +405,8 @@ img {
     width: 200px;
   }
 
-  .about__container {
-    width: 100%;
-  }
+ 
+  
 }
 
 @media screen and (min-width: 576px) {
@@ -433,9 +428,9 @@ img {
     bottom: 25%;
   }
   .about__container {
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    text-align: initial;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .skills__container {
     grid-template-columns: .7fr;
@@ -497,10 +492,11 @@ img {
   }
   .about__container {
     padding-top: 2rem;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
   }
-  .about__img img {
-    width: 300px;
-  }
+ 
   .skills__container {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
@@ -525,4 +521,9 @@ img {
     width: 450px;
   }
   
+  .about__container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
