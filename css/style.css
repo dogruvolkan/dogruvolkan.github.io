@@ -449,7 +449,7 @@ img {
   }
 
   .project_link a{
-    padding: 0 10px;
+    margin-right: 25px;
   }
 
   .skills__img {
@@ -467,6 +467,9 @@ img {
     width:75%;
     margin-left: auto;
     margin-right: auto;
+  }
+  .project_link a{
+    margin-right: 25px;
   }
 }
 
