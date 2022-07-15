@@ -437,6 +437,7 @@ img {
 
   .about__container {
     width: 50%;
+    padding:0 10px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -455,6 +456,11 @@ img {
     width:50%;
     margin-left:auto;
     margin-right:auto;
+  }
+  .about__container {
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
