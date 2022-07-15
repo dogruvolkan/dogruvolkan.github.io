@@ -432,6 +432,26 @@ img {
   font-size: var(--smaller-font-size);
 }
 
+/* scroll */
+#scroll {
+  position:fixed;
+  right:50px;
+  bottom:65px;
+  font-size: 40px;
+  cursor:pointer;
+  background-color:#ccc;
+  color:black;
+  display:none;
+}
+
+
+#scroll span {
+  position:absolute;
+  top:50%;
+  left:50%;
+}
+
+
 /* ===== MEDIA QUERIES=====*/
 @media screen and (max-width: 320px) {
   .home {

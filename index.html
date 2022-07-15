@@ -12,6 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
 
     <link rel="shortcut icon" type="image/x-icon" href="img/react.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <title>Volkan Doğru | Frontend Developer</title>
 </head>
@@ -308,11 +309,39 @@
         </section>
     </main>
 
+    <div class="" href="#" id="scroll" style="display: none;">
+        <span>
+            👆
+        </span>
+    </div>
+
+
     <!--===== FOOTER =====-->
     <footer class="footer">
         <p class="footer__copy">&#169; volkan doğru</p>
     </footer>
 
+
+
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    $('#scroll').fadeIn();
+                } else {
+                    $('#scroll').fadeOut();
+                }
+            });
+            $('#scroll').click(function () {
+                $("html, body").animate({
+                    scrollTop: 0
+                }, 600);
+                return false;
+            });
+        });
+    </script>
+
+    <!-- backtotop  -->
 
 
     <!--===== SCROLL REVEAL =====-->
