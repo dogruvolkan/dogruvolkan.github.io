@@ -116,6 +116,11 @@ img {
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
+.fs-14{
+  font-size: 14px;
+  padding: 5px;
+}
+
 /*===== NAV =====*/
 .nav {
   height: var(--header-height);
@@ -367,8 +372,9 @@ img {
 }
 
 .project_link{
-  padding: 10px 0;
   text-align: center;
+  padding-top: 15px;
+  padding-left: 35px;
 }
 
 .work__img img {
