@@ -509,6 +509,17 @@ img {
   font-size: var(--smaller-font-size);
 }
 
+.visiterCount{
+  display: flex;
+justify-content: center; 
+}
+
+.visiterCount img{
+  padding-top:2px;
+  width: 50px;
+  height: 15px;
+}
+
 /* scroll */
 #scroll {
   position:fixed;
