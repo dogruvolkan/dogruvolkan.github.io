@@ -30,7 +30,7 @@
 /* dark */
 .dark {background-color: #1B2430;} /* #9b59b6 */
 
-.dark h1 ,.dark p ,.dark .about__subtitle, .dark .home__social-icon, .dark .skills__subtitle , .dark .skills__name, .dark .skills__percentage , .dark header a  {
+.dark h1 ,.dark p ,.dark .about__subtitle, .dark .home__social-icon, .dark .skills__subtitle , .dark .skills__name, .dark .skills__percentage , .dark header a, .dark .bx-menu{
   color: #fff;
 }
 .dark header {
