@@ -116,6 +116,7 @@
 
 html {
   scroll-behavior: smooth;
+  cursor:url('../img/cursor.png'), auto !important;
 }
 
 body {
@@ -123,7 +124,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
-  cursor:url('../img/cursor.png'), auto !important;
+  
 }
 
 h1, h2, p {
