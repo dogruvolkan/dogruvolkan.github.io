@@ -26,6 +26,8 @@
 </head>
 
 <body>
+    
+    
     <!--===== HEADER =====-->
     <header class="l-header">
         <nav class="nav bd-grid">
@@ -133,7 +135,7 @@
 
                 </div>
                 <div class="coffee">
-                    <a href="https://www.buymeacoffee.com/volkandogru" target="_blank"><img
+                    <a class="coffee_link" href="https://www.buymeacoffee.com/volkandogru" target="_blank"><img
                             src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee"
                             style="height: 45px !important;width: 217px !important;"></a>
                 </div>
@@ -320,10 +322,10 @@
             <div class="contact__container bd-grid">
                 <img class="contact_img w-25" src="img/contact.gif">
                 <form action="https://formspree.io/f/xrgjwwbv" method="POST" class="contact__form">
-                    <input type="text" name="name" placeholder="Name" class="contact__input" />
-                    <input type="email" name="mail" placeholder="Email" class="contact__input" />
+                    <input type="text" name="name" placeholder="Name" class="contact__input" required/>
+                    <input type="email" name="mail" placeholder="Email" class="contact__input" required/>
                     <textarea name="message" id="" cols="0" rows="10" class="contact__input"
-                        placeholder="Message"></textarea>
+                        placeholder="Message" required></textarea>
                     <input type="submit" value="Gönder" class="contact__button button" />
                 </form>
             </div>
@@ -344,6 +346,10 @@
             <img src="https://hitwebcounter.com/counter/counter.php?page=8015615&style=0006&nbdigits=4&type=ip&initCount=0"
                 border="0" /></div>
     </footer>
+
+
+    
+
 
 
     <!--===== BACK TO TOP jquery code =====-->

@@ -47,6 +47,7 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #464646; 
+  cursor:url('../img/cursor.png'), auto !important;
 }
 
 /* dark */
@@ -72,7 +73,7 @@
   border-radius: 50px;
   position: relative;
   padding: 5px;
-  cursor: pointer;
+  cursor:url('../img/cursor.png'), auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -122,6 +123,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
+  cursor:url('../img/cursor.png'), auto;
 }
 
 h1, h2, p {
@@ -227,6 +229,7 @@ img {
 
 .nav__link:hover {
   position: relative;
+  cursor:url('../img/cursor.png'), auto;
 }
 
 .nav__link:hover::after {
@@ -237,16 +240,21 @@ img {
   left: 0;
   top: 2rem;
   background-color: var(--first-color);
+  
 }
 
 .nav__logo {
   color: var(--second-color);
 }
 
+.nav__logo:hover{
+  cursor:url('../img/cursor.png'), auto;
+}
+
 .nav__toggle {
   color: var(--second-color);
   font-size: 1.5rem;
-  cursor: pointer;
+  cursor:url('../img/cursor.png'), auto;
 }
 
 /*Active menu*/
@@ -304,6 +312,7 @@ img {
 
 .home__social-icon:hover {
   color: var(--first-color);
+  cursor: url('../img/cursor.png'), auto;
 }
 
 .home__img {
@@ -335,6 +344,7 @@ img {
 .button:hover {
   box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
   color:#fff !important;
+  cursor:url('../img/cursor.png'), auto;
 }
 
 .btnBeyaz:hover{
@@ -357,6 +367,11 @@ img {
   margin-top: 15px;
   display: flex;
   justify-content: center;
+  
+}
+
+.coffee_link:hover{
+  cursor:url('../img/cursor.png'), auto;
 }
 
 /* ===== SKILLS =====*/
@@ -470,8 +485,12 @@ img {
   width: 80%;
   margin-left:auto;
   margin-right:auto;
+  
 }
 
+#github :hover{
+  cursor:url('../img/cursor.png'), auto !important;
+}
 
 
 /* ===== CONTACT =====*/
@@ -487,6 +506,10 @@ img {
   resize: none;
 }
 
+.contact__input:hover{
+  cursor:url('../img/cursor.png'), auto;
+}
+
 
 
 .contact__button {
@@ -494,7 +517,7 @@ img {
   border: none;
   outline: none;
   font-size: var(--normal-font-size);
-  cursor: pointer;
+  cursor:url('../img/cursor.png'), auto;
   margin-left: auto;
 }
 
@@ -528,7 +551,7 @@ justify-content: center;
   right:50px;
   bottom:65px;
   font-size: 40px;
-  cursor:pointer;
+  cursor:url('../img/cursor.png'), auto;
   background-color:#ccc;
   color:black;
   display:none;
@@ -540,6 +563,7 @@ justify-content: center;
   top:50%;
   left:50%;
 }
+
 
 
 /* ===== MEDIA QUERIES=====*/
