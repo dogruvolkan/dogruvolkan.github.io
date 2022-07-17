@@ -353,6 +353,12 @@ img {
   
 }
 
+.coffee{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
 /* ===== SKILLS =====*/
 .skills__container {
   row-gap: 2rem;
