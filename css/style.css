@@ -434,12 +434,20 @@ img {
   width: 75%;
 }
 
+.skills__tailwind{
+  width:60%;
+}
+
 .skills__sass{
   width: 45%;
 }
 
 .skills__js {
   width: 55%;
+}
+
+.skills__jquery{
+  width:65%;
 }
 
 .skills__react {
@@ -454,6 +462,8 @@ img {
   margin-top: 80px;
   border-radius: .5rem;
 }
+
+
 
 /* ===== WORK =====*/
 .work__container {
