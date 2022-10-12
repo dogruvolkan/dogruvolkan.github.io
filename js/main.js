@@ -68,6 +68,6 @@ sr.reveal(
 );
 sr.reveal(".home__social-icon", { interval: 200 });
 sr.reveal(
-  ".skills__data, .work__img, .contact__input, .github_img, .github_follow , .contact_img, .coffee",
+  ".skills__data, .work__img, .contact__input, .github_img, .github_follow , .contact_img, .coffee, ,.card-project",
   { interval: 200 }
 );

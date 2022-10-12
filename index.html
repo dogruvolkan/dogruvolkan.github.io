@@ -34,6 +34,13 @@
     <link rel="shortcut icon" type="image/x-icon" href="img/icon.png">
     <link rel="stylesheet" href="css/clap.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Volkan Doğru | Frontend Developer</title>
     <meta name="google-site-verification" content="JgWh_nSEhkPo1upkPqd4q-dl-tfYDAWxUN8Ir29U5B4" />
 </head>
@@ -203,8 +210,8 @@
                             <span class="skills__percentage">75%</span>
                         </div>
                     </div>
-                   
-                   
+
+
                     <div class="skills__data">
                         <div class="skills__names">
                             <i class="bx bxl-javascript skills__icon"></i>
@@ -257,68 +264,108 @@
         <section class="work section" id="work">
             <h2 class="section-title">Work</h2>
             <p class="text-center text_work pb-4">🚀 I do projects to improve myself</p>
-            <div class="work__container bd-grid">
-                <div class="work__img">
-                    <img src="img/1.png" alt="" />
-                    <div class="project_link">
-                        <a target="_blank" href="https://github.com/dogruvolkan/uniyurtwebsite"
-                            class="home__social-icon"><i class="bx bxl-github"></i></a>
-                        <a target="_blank" href="#"
-                            class="home__social-icon"><i class='bx bxl-internet-explorer bx-tada'></i></a>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="card-project">
+                        <h2>Currency <br /> App</h2>
+                        <div class="card-project-content">
+                            <small>Güncel döviz kurlarını gösteren ve kur hesaplaması yapabilen bir js
+                                uygulamasıdır.</small>
+                        </div>
+                        <div class="card-project-footer">
+                            <a href="https://github.com/dogruvolkan/currency-converter">Github</a>
+                            <a href="https://dogruvolkan.github.io/currency-converter/">Demo</a>
+                        </div>
                     </div>
-                    <p class="text-center pb-2 fs-14">Üniyurt website clone</p>
-
                 </div>
-                <div class="work__img">
-                    <img src="img/2.png" alt="" />
-                    <div class="project_link">
-                        <a target="_blank" href="https://github.com/dogruvolkan/SurucuKursu"
-                            class="home__social-icon"><i class="bx bxl-github"></i></a>
-                        <a target="_blank" href="#"
-                            class="home__social-icon"><i class='bx bxl-internet-explorer bx-tada'></i></a>
+                <div class="item">
+                    <div class="card-project">
+                        <h2>Countries <br /> App</h2>
+                        <div class="card-project-content">
+                            <small>Ülkelerin listelendiği arama alanından ülke aranan ve filtereleme yapılabilen bir
+                                react uygulamasıdır.</small>
+                        </div>
+                        <div class="card-project-footer">
+                            <a href="https://github.com/dogruvolkan/react-countries-list">Github</a>
+                            <a href="https://healthy-jail.surge.sh/">Demo</a>
+                        </div>
                     </div>
-                    <p class="text-center pb-2 fs-14">Sürücü kursu website clone</p>
                 </div>
-                <div href="" class="work__img">
-                    <img src="img/3.png" alt="" />
-                    <div class="project_link">
-                        <a target="_blank" href="https://github.com/dogruvolkan/100JSProject/tree/master/alarmClock"
-                            class="home__social-icon"><i class="bx bxl-github"></i></a>
-                        <a target="_blank" href="https://ephemeral-bunny-62a0fb.netlify.app/"
-                            class="home__social-icon"><i class='bx bxl-internet-explorer bx-tada'></i></a>
+                <div class="item">
+                    <div class="card-project">
+                        <h2>Weather <br /> App</h2>
+                        <div class="card-project-content">
+                            <small>Lokasyona göre bulunduğunuz şehrin hava durumunu ve diğer detayları gösteren bir
+                                react uygulamasıdır.</small>
+                        </div>
+                        <div class="card-project-footer">
+                            <a href="https://github.com/dogruvolkan/react-hava-durumu">Github</a>
+                            <a href="https://hurt-pig.surge.sh/">Demo</a>
+                        </div>
                     </div>
-                    <p class="text-center pb-2 fs-14">Alarm Saat</p>
                 </div>
-                <div class="work__img">
-                    <img src="img/4.png" alt="" />
-                    <div class="project_link">
-                        <a target="_blank"
-                            href="https://github.com/dogruvolkan/100JSProject/tree/master/kelimeTahminOyunu"
-                            class="home__social-icon"><i class="bx bxl-github"></i></a>
-                        <a target="_blank" href="https://cute-custard-239002.netlify.app/" class="home__social-icon"><i
-                                class='bx bxl-internet-explorer bx-tada'></i></a>
+                <div class="item">
+                    <div class="card-project">
+                        <h2>Shopping<br /> App</h2>
+                        <div class="card-project-content">
+                            <small>Anasayfadaki ürünleri seçip sepete ekleyebildiğiniz bir react uygulamasıdır.</small>
+                        </div>
+                        <div class="card-project-footer">
+                            <a href="https://github.com/dogruvolkan/react-shopping-basket">Github</a>
+                            <a href="https://fufddffffar.surge.sh/">Demo</a>
+                        </div>
                     </div>
-                    <p class="text-center pb-2 fs-14">Kelime tahmin oyunu</p>
                 </div>
-                <div class="work__img">
-                    <img src="img/5.png" alt="" />
-                    <div class="project_link">
-                        <a target="_blank" href="https://github.com/dogruvolkan" class="home__social-icon"><i
-                                class="bx bxl-github"></i></a>
-                        <a target="_blank" href="https://github.com/dogruvolkan" class="home__social-icon"><i
-                                class='bx bxl-internet-explorer bx-tada'></i></a>
+                <div class="item">
+                    <div class="card-project">
+                        <h2>E-commerce<br /> App</h2>
+                        <div class="card-project-content">
+                            <small>Giyim üzerine ürünlerin listelendiği bir alışveriş websitesidir.</small>
+                        </div>
+                        <div class="card-project-footer">
+                            <a href="https://github.com/dogruvolkan/eCommerce">Github</a>
+                            <a href="https://dogruvolkan.github.io/eCommerce/">Demo</a>
+                        </div>
                     </div>
-                    <p class="text-center pb-2 fs-14">Proje</p>
                 </div>
-                <div href="" class="work__img">
-                    <img src="img/6.png" alt="" />
-                    <div class="project_link">
-                        <a target="_blank" href="https://github.com/dogruvolkan" class="home__social-icon"><i
-                                class="bx bxl-github"></i></a>
-                        <a target="_blank" href="https://github.com/dogruvolkan" class="home__social-icon"><i
-                                class='bx bxl-internet-explorer bx-tada'></i></a>
+                <div class="item">
+                    <div class="card-project">
+                        <h2>Driving <br /> School</h2>
+                        <div class="card-project-content">
+                            <small>Bir sürücü kursunu temsil eden ve sürücü kursuyla ilgili detayları içeren bir web
+                                sitedir.</small>
+                        </div>
+                        <div class="card-project-footer">
+                            <a href="https://github.com/dogruvolkan/SurucuKursu">Github</a>
+                            <a href="https://dogruvolkan.github.io/SurucuKursu/">Demo</a>
+                        </div>
                     </div>
-                    <p class="text-center pb-2 fs-14">Proje</p>
+                </div>
+                <div class="item">
+                    <div class="card-project">
+                        <h2>Dorm<br /> Website</h2>
+                        <div class="card-project-content">
+                            <small>Bir öğrenci yurdunu temsil eden ve yurtla ilgili detayları içeren bir
+                                websitedir.</small>
+                        </div>
+                        <div class="card-project-footer">
+                            <a href="https://github.com/dogruvolkan/uniyurtwebsite">Github</a>
+                            <a href="#">Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card-project">
+                        <h2>To-do<br /> App</h2>
+                        <div class="card-project-content">
+                            <small>Jquery kullanılarak oluşturulmuş silme düzenleme pasif hale getirme özelikleri
+                                bullunan bir uygulamadır.</small>
+                        </div>
+                        <div class="card-project-footer">
+                            <a href="https://github.com/dogruvolkan/jqueryTodoApp">Github</a>
+                            <a href="https://dogruvolkan.github.io/jqueryTodoApp/">Demo</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -394,10 +441,32 @@
                 }, 600);
                 return false;
             });
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 20,
+                nav: false,
+                dots: false,
+                autoplay: false,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            })
         });
     </script>
 
 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!--===== SCROLL REVEAL =====-->
     <script src="https://unpkg.com/scrollreveal"></script>
 
